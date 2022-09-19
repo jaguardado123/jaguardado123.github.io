@@ -3,14 +3,14 @@
   <head>
     <title>Joselito A. Guardado</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?01">
+    <link rel="stylesheet" href="css/style.css?02">
   </head>
   <body>
     <span id="home"></span>
     <nav id="navbar">
       <div id="links">
         <ul>
-          <li><a href="#home">Home</a></li>
+          <li><a href="#home">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -23,112 +23,159 @@
         <div id="title">
           <h1>Joselito A. Guardado</h1>
         </div>
-        <div class="section">
-
+        <div class="section" style="text-align: center; margin-top: 30px;">
+          <div class="contact">
+            <img src="images/logo-linkedin-icon.png" width="30px"><a href="https://www.linkedin.com/in/joselito-guardado/">joselito-guardado</a>
+          </div>
+          <div class="contact">
+            <img src="images/GitHub_logo.png" width="30px"><a href="https://github.com/jaguardado123">jaguardado123</a>
+          </div>
+          <div class="contact">
+            <img src="images/email-icon.png" width="27px"><a href="mailto:jaguardado123@gmail.com">jaguardado123@gmail.com</a>
+          </div>
         </div>
         <div class="section">
-          <h3>Career Summary</h3>
-          <p>I have a master's degree in computer science with 2+ years of experience as a web master at UTRGV offering skills in web design and web development in
-PHP, NodeJS, and Django web frameworks. Developed 7 web applications and created and managed multiple MySQL databases.</p>
+          <h3>About Me</h3>
+          <p>Welcome to my web page! My name is Joselito A. Guardado and I am a web master for the computer science department at The University of Texas Rio Grande Valley.
+            I have been a proud member of the Machine Intelligence research lab at UTRGV for the past 2 years. My hobbies include graphic design and photography.
+          </p>
+          <div id="pictures">
+            <img id="one" src="images/research-group.jpg">
+            <img id="two" src="images/DSC_0218.jpg">
+            <img id="three" src="images/cppcon.jpeg">
+          </div>
+          <div id="career">
+            <h5>Career Summary</h5>
+            <p>I have 2+ years of experience as a web master at UTRGV offering skills in web design and web development in
+              PHP, NodeJS, and Django web frameworks. I developed 8 web applications and created and managed multiple MySQL databases.</p>
+          </div>
         </div>
+        <span id="skills"></span>
         <div class="section">
-          <span id="skills"></span>
           <h3>Skills</h3>
-          <ul>
-            <li>UI/UX Design</li>
-            <li>Web Development</li>
-            <li>Database Management</li>
-            <li>Relational Databases</li>
-            <li>Solid OOP</li>
-            <li>VM Management</li>
-          </ul>
+          <div class="bullets">
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Web Development</li>
+              <li>Database Management</li>
+            </ul>
+            <ul>
+              <li>Relational Databases</li>
+              <li>Solid Object Oriented Programming</li>
+              <li>Virtual Machine Management</li>
+            </ul>
+          </div>
         </div>
         <div class="section">
           <h3>Languages</h3>
-          <ul>
-            <li>PHP</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-            <li>HTML/CSS</li>
-          </ul>
+          <div class="bullets">
+            <ul>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+            </ul>
+            <ul>
+              <li>SQL</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </div>
         </div>
         <div class="section">
           <h3>Technologies</h3>
-          <ul>
-            <li>Git</li>
-            <li>MySQL</li>
-            <li>NodeJS</li>
-            <li>Apache2</li>
-            <li>NGINX</li>
-          </ul>
+          <div class="bullets">
+            <ul>
+              <li>Git</li>
+              <li>MySQL</li>
+              <li>NodeJS</li>
+            </ul>
+            <ul>
+              <li>Apache2</li>
+              <li>NGINX</li>
+            </ul>
+          </div>
         </div>
+        <span id="experience"></span>
         <div class="section">
-          <span id="experience"></span>
           <h3>Experience</h3>
           <h5>University of Texas Rio Grande Valley</h5>
-          <p><strong>Teaching Assistant</strong></p>
+          <p class="subject"><strong>Teaching Assistant</strong></p>
+          <p class="date">August 2022 - Present</p>
           <ul>
             <li>Taught basic web development techniques using Python Flask to a class of 43 intro level students in a clear and concise manner.</li>
             <li>Assigned daily assignments to help students practice web-dev skills and returned graded assignments with insightful feedback.</li>
           </ul>
-          <p><strong>Web Master</strong></p>
+          <p class="subject"><strong>Web Master</strong></p>
+          <p class="date">January 2020 - Present</p>
           <ul>
             <li>Created UI/UX design for 7 web applications using custom HTML/CSS and JS and designed custom logos and vector graphics.</li>
             <li>Developed back-end code in PHP, NodeJS, and Django frameworks using solid OOP principles and used Git to track change.</li>
             <li>Created and managed multiple MySQL databases and documented each project database workflow using database schemas.</li>
           </ul>
         </div>
+        <span id="projects"></span>
         <div class="section">
-          <span id="projects"></span>
           <h3>Projects</h3>
-          <p><strong>Concrete Conductivity</strong></p>
+          <p class="subject"><strong>Concrete Conductivity</strong></p>
+          <p class="date">August 2022 - Present</p>
           <p class="codestack">Used Python Django framework and Apache2 reverse proxy server</p>
           <ul>
             <li></li>
           </ul>
-          <p><strong>Lower Rio Grande River Salinity Forecasting</strong></p>
-          <p class="codestack">Used NodeJS framework and Apache2 reverse proxy server</p>
+          <p class="subject"><strong>LRGSF | Lower Rio Grande River Salinity Forecasting</strong></p>
+          <p class="date">July 2022 - Present</p>
+          <p class="codestack">Used NodeJS framework, MySQL DB, and Apache2 reverse proxy server</p>
           <ul>
             <li>Designed an interactive map to display live forecast animation of salinity levels in the Rio Grande River using open source GIS software.</li>
             <li>Scheduled a Python web scraping script to collect and store hourly water quantity and quality levels of the Rio Grande River every 24 hours.</li>
           </ul>
-          <p><strong>Pose Estimation</strong></p>
+          <p class="subject"><strong>HPCC | High Performance Computing Center</strong></p>
+          <p class="date">March 2022 - Present</p>
+          <p class="codestack">Used PHP framework and Apache2 web server</p>
+          <a href="https://hpcc.utrgv.edu/">Visit Website</a>
+          <ul>
+            <li></li>
+          </ul>
+          <p class="subject"><strong>Pose Estimation</strong></p>
+          <p class="date">January 2022 - Present</p>
           <p class="codestack">Used PHP framework and Apache2 web server</p>
           <a href="https://bee.utrgv.edu/poseEstimation.html">Visit Website</a>
           <ul>
             <li></li>
           </ul>
-          <p><strong>UTRGV Computer Science Department</strong></p>
+          <p class="subject"><strong>UTRGV Computer Science Department</strong></p>
+          <p class="date">September 2021 - Present</p>
           <p class="codestack">Used Cascade</p>
           <a href="https://www.utrgv.edu/csci/">Visit Website</a>
           <ul>
             <li></li>
           </ul>
-          <p><strong>VCORE</strong></p>
-          <p class="codestack">Used NodeJS framework and NGINX reverse proxy server</p>
+          <p class="subject"><strong>VCORE | Storm Forecasting Tool</strong></p>
+          <p class="date">January 2021 - March 2022</p>
+          <p class="codestack">Used NodeJS framework, Geoserver, and NGINX reverse proxy server</p>
           <a href="https://vcore.utrgv.edu/">Visit Website</a>
           <ul>
             <li>Designed an interactive map to display live weather forecast animation and live road traffic using open source GIS software.</li>
             <li>Scheduled a Python web scraping script to collect, convert, and store geospatial files into GeoServer every 6 hours.</li>
           </ul>
-          <p><strong>IntelliBeeHive</strong></p>
-          <p class="codestack">Used PHP framework and Apache2 web server</p>
+          <p class="subject"><strong>IntelliBeeHive</strong></p>
+          <p class="date">August 2020 - Present</p>
+          <p class="codestack">Used PHP framework, MySQL DB, and Apache2 web server</p>
           <a href="https://bee.utrgv.edu">Visit Website</a>
           <ul>
-            <li>Developed a sleek landing page using custom HTML/CSS, JS animations, and created custom logos, icons, and vector graphics.</li>
+            <li>Designed a sleek landing page using custom HTML/CSS, JS animations, and created custom logos, icons, and vector graphics.</li>
             <li>Developed a web app to sign in users using Auth0 and to collect beehive data and video feed as an API.</li>
-            <li>Created and managed multiple MySQL database to store beehive data, user public data and hashed values of user private data.</li>
+            <li>Created and managed multiple databases to store beehive data, user public data and hashed values of user private data.</li>
           </ul>
-          <p><strong>Machine Intelligence</strong></p>
+          <p class="subject"><strong>Machine Intelligence</strong></p>
+          <p class="date">January 2020 - Present</p>
           <p class="codestack">Used GitHub Pages</p>
           <a href="https://miutrgv.github.io/">Visit Website</a>
           <ul>
             <li></li>
           </ul>
         </div>
+        <span id="education"></span>
         <div class="section">
-          <span id="education"></span>
           <h3>Education</h3>
           <h5>University of Texas Rio Grande Valley</h5>
           <p><strong>Master of Science in Computer Science</strong></p>
@@ -142,5 +189,11 @@ PHP, NodeJS, and Django web frameworks. Developed 7 web applications and created
         </div>
       </div>
     </div>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.1.min.js"
+			  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+			  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/animation.js"></script>
   </body>
 </html>
