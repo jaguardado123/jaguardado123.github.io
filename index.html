@@ -3,7 +3,7 @@
   <head>
     <title>Joselito A. Guardado</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?02">
+    <link rel="stylesheet" href="css/style.css?03">
   </head>
   <body>
     <span id="home"></span>
@@ -53,7 +53,7 @@
         <span id="skills"></span>
         <div class="section">
           <h3>Skills</h3>
-          <div class="bullets">
+          <div class="bullets divide">
             <ul>
               <li>UI/UX Design</li>
               <li>Web Development</li>
@@ -67,8 +67,8 @@
           </div>
         </div>
         <div class="section">
-          <h3>Languages</h3>
-          <div class="bullets">
+          <h5 class="skill">Languages</h5>
+          <div class="bullets divide">
             <ul>
               <li>PHP</li>
               <li>Python</li>
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="section">
-          <h3>Technologies</h3>
+          <h5 class="skill">Technologies</h5>
           <div class="bullets">
             <ul>
               <li>Git</li>
@@ -100,7 +100,7 @@
           <h5>University of Texas Rio Grande Valley</h5>
           <p class="subject"><strong>Teaching Assistant</strong></p>
           <p class="date">August 2022 - Present</p>
-          <ul>
+          <ul class="divide">
             <li>Taught basic web development techniques using Python Flask to a class of 43 intro level students in a clear and concise manner.</li>
             <li>Assigned daily assignments to help students practice web-dev skills and returned graded assignments with insightful feedback.</li>
           </ul>
@@ -118,13 +118,14 @@
           <p class="subject"><strong>Concrete Conductivity</strong></p>
           <p class="date">August 2022 - Present</p>
           <p class="codestack">Used Python Django framework and Apache2 reverse proxy server</p>
-          <ul>
-            <li></li>
+          <ul class="divide">
+            <li>Created UI/UX design for the civil engineering department's project to find all paths from input x,y coordinates on a graph.</li>
+            <li>Developed an web application to send input coordinates to an API and output an image of a fully connected graph.</li>
           </ul>
           <p class="subject"><strong>LRGSF | Lower Rio Grande River Salinity Forecasting</strong></p>
           <p class="date">July 2022 - Present</p>
           <p class="codestack">Used NodeJS framework, MySQL DB, and Apache2 reverse proxy server</p>
-          <ul>
+          <ul class="divide">
             <li>Designed an interactive map to display live forecast animation of salinity levels in the Rio Grande River using open source GIS software.</li>
             <li>Scheduled a Python web scraping script to collect and store hourly water quantity and quality levels of the Rio Grande River every 24 hours.</li>
           </ul>
@@ -132,28 +133,30 @@
           <p class="date">March 2022 - Present</p>
           <p class="codestack">Used PHP framework and Apache2 web server</p>
           <a href="https://hpcc.utrgv.edu/">Visit Website</a>
-          <ul>
-            <li></li>
+          <ul class="divide">
+            <li>Created UI/UX design for the University of Texas Rio Grande Valley's new HPC Center.</li>
+            <li>Developed landing page using custom HTML/CSS and JavaScript.</li>
           </ul>
           <p class="subject"><strong>Pose Estimation</strong></p>
           <p class="date">January 2022 - Present</p>
           <p class="codestack">Used PHP framework and Apache2 web server</p>
           <a href="https://bee.utrgv.edu/poseEstimation.html">Visit Website</a>
-          <ul>
-            <li></li>
+          <ul class="divide">
+            <li>Created UI/UX design for non-computer savvy users to navigate through and created custom GIFs to aid users.</li>
+            <li>Developed a web app to for users to upload video files and receive csv files from an API via email.</li>
           </ul>
           <p class="subject"><strong>UTRGV Computer Science Department</strong></p>
           <p class="date">September 2021 - Present</p>
           <p class="codestack">Used Cascade</p>
           <a href="https://www.utrgv.edu/csci/">Visit Website</a>
-          <ul>
-            <li></li>
+          <ul class="divide">
+            <li>Developed research and faculty pages and took photographs for the computer science department at UTRGV website and updated projects and faculty when needed.</li>
           </ul>
           <p class="subject"><strong>VCORE | Storm Forecasting Tool</strong></p>
           <p class="date">January 2021 - March 2022</p>
           <p class="codestack">Used NodeJS framework, Geoserver, and NGINX reverse proxy server</p>
           <a href="https://vcore.utrgv.edu/">Visit Website</a>
-          <ul>
+          <ul class="divide">
             <li>Designed an interactive map to display live weather forecast animation and live road traffic using open source GIS software.</li>
             <li>Scheduled a Python web scraping script to collect, convert, and store geospatial files into GeoServer every 6 hours.</li>
           </ul>
@@ -161,7 +164,7 @@
           <p class="date">August 2020 - Present</p>
           <p class="codestack">Used PHP framework, MySQL DB, and Apache2 web server</p>
           <a href="https://bee.utrgv.edu">Visit Website</a>
-          <ul>
+          <ul class="divide">
             <li>Designed a sleek landing page using custom HTML/CSS, JS animations, and created custom logos, icons, and vector graphics.</li>
             <li>Developed a web app to sign in users using Auth0 and to collect beehive data and video feed as an API.</li>
             <li>Created and managed multiple databases to store beehive data, user public data and hashed values of user private data.</li>
@@ -171,20 +174,25 @@
           <p class="codestack">Used GitHub Pages</p>
           <a href="https://miutrgv.github.io/">Visit Website</a>
           <ul>
-            <li></li>
+            <li>Created UI design to represent the research lab and created custom logos, icons, and vector graphics.</li>
+            <li>Developed web site using custom HTML/CSS and JS and updated news events, faculty, and projects when necessary.</li>
           </ul>
         </div>
         <span id="education"></span>
         <div class="section">
           <h3>Education</h3>
           <h5>University of Texas Rio Grande Valley</h5>
-          <p><strong>Master of Science in Computer Science</strong></p>
-          <ul>
+          <p class="subject"><strong>Master of Science in Computer Science</strong></p>
+          <p class="date">August 2020 - July 2022</p>
+          <ul class="divide">
             <li>GPA - 3.71</li>
+            <li>USDA Honey Bee Scholarship</li>
           </ul>
-          <p><strong>Bachelor of Science in Computer Science</strong></p>
+          <p class="subject"><strong>Bachelor of Science in Computer Science</strong></p>
+          <p class="date">August 2014 - May 2020</p>
           <ul>
             <li>GPA - 3.69</li>
+            <li>President's List</li>
           </ul>
         </div>
       </div>

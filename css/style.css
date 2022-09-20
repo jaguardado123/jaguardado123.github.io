@@ -1,3 +1,7 @@
+
+/*
+  CSS code for Navigation Bar.
+*/
 #navbar {
   width: 100%;
   height: 80px;
@@ -34,6 +38,9 @@
   border-bottom: 3px solid #1e90ff;
 }
 
+/*
+  CSS code for web page body.
+*/
 #container {
   width: 100%;
   text-align: center;
@@ -49,6 +56,25 @@
   margin-top: 75px;
 }
 
+/* Contact Me section. */
+.contact {
+  width: auto;
+  display: inline-block;
+  padding: 5px;
+}
+
+.contact img {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.contact a {
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* About Me section.*/
 #pictures {
   font-size: 0;
 }
@@ -76,6 +102,7 @@
   margin-top: 15px;
 }
 
+/* Individual item section. */
 .section {
   width: 100%;
   text-align: start;
@@ -92,30 +119,9 @@
   color: #696969;
 }
 
-.section strong {
-  color: #222222;
-}
-
 .codestack {
   font-style: italic;
   font-weight: lighter;
-}
-
-.contact {
-  width: auto;
-  display: inline-block;
-  padding: 5px;
-}
-
-.contact img {
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.contact a {
-  margin-left: 5px;
-  display: inline-block;
-  vertical-align: bottom;
 }
 
 .subject {
@@ -141,4 +147,33 @@
   display: inline-block;
   width: 50%;
   vertical-align: top;
+}
+
+.divide {
+  border-bottom: dotted 1px #696969;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #container {
+    padding: 0;
+  }
+  #content {
+    width: 100%;
+  }
+  p, a, li {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 56px;
+  }
+  h3 {
+    font-size: 46px;
+  }
+  h5 {
+    font-size: 36px;
+  }
+  .section {
+    margin-bottom: 60px;
+  }
 }
